@@ -9,6 +9,7 @@
     "directory": "public"
   },
   "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
   "routes": [
     { "pattern": "tanishhire.com", "custom_domain": true }
   ]
