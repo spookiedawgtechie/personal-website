@@ -8,5 +8,8 @@
   "assets": {
     "directory": "public"
   },
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    { "pattern": "tanishhire.com", "custom_domain": true }
+  ]
 }
