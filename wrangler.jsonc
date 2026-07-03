@@ -1,7 +1,12 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "tanish-hire",
   "compatibility_date": "2026-07-03",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": "./public"
-  }
+    "directory": "public"
+  },
+  "compatibility_flags": ["nodejs_compat"]
 }
